@@ -9,6 +9,31 @@
   color: white;
 }
 
+.faction {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-faction {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+/* Don't ask */
+.single-faction > div > img {
+  margin: 0.5rem;
+}
+
+.faction > a {
+  margin: 0.5rem;
+}
+
+p {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: crimson;
+}
+
 nav > ul {
   flex-direction: row;
   padding-bottom: 0.5rem;
@@ -38,36 +63,6 @@ li {
   background-color: crimson;
 }
 
-.stats > li {
-  color: white;
-  background-color: black;
-  border-style: hidden;
-  text-align: center;
-  margin: 0.25rem;
-  padding: 0.15rem;
-}
-
-.stats {
-  margin: 0.5rem;
-  padding-top: 0;
-  border-style: double;
-  border-color: crimson;
-  background-color: black;
-}
-
-.gallery {
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.gallery li {
-  padding: 0;
-  background-color: white;
-  border-color: crimson;
-  border-style: double;
-  border: 0.3rem;
-}
-
 title {
   border-color: crimson;
   background-color: crimson;
@@ -77,11 +72,12 @@ title {
 }
 
 a {
-  background-color: crimson;
+  padding: 0.5rem;
+  margin: 0.5rem;
   color: white;
 }
 a:visited {
-  background-color: crimson;
-
+  padding: 0.5rem;
+  margin: 0.5rem;
   color: white;
 }

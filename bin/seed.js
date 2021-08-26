@@ -21,7 +21,7 @@ const seed = async () => {
   const sirHarrisonIv = await Kitty.create({
     name: "sir harrison iv",
     imageUrl: "kitty3.jpg",
-    info: "sir harrison iv is the faction leader of the feline monarchy. it has only been 2 year since he ascended the throne after his father's mysterious death. the horrors coincidentally arrived shortly after and have tested the new ruler's meddle.",
+    info: "sir harrison iv is the faction leader of the feline monarchy. it has only been 2 year since he ascended the throne after his father's mysterious death. the horrors coincidentally arrived shortly after and have tested the new ruler's mettle.",
     factionId: monarchy.id,
   });
   const charles = await Kitty.create({
@@ -33,7 +33,7 @@ const seed = async () => {
   const ted = await Kitty.create({
     name: "ted",
     imageUrl: "kitty2.png",
-    info: "a strange, self-absorbed kitty who cares little for current events. ted mostly fills his days with hunting, screaming, and critiquing the works of literature. charles is his younger brother.",
+    info: "a strange, self-absorbed kitty who cares little for current events. ted mostly fills his days with hunting, screaming, and critiquing literary works. charles is his younger brother.",
     factionId: monarchy.id,
   });
   const redacted = await Kitty.create({
@@ -45,27 +45,34 @@ const seed = async () => {
 
   //Puppers
   const pupper1 = await Pupper.create({
-    name: "pupper1",
+    name: "doug",
     imageUrl: "pupper1.jpg",
-    info: "pupper1",
+    info: "leader of the canine alliance. very cool dude.",
     factionId: alliance.id,
   });
   const pupper2 = await Pupper.create({
-    name: "pupper2",
+    name: "poppy",
     imageUrl: "pupper2.jpg",
-    info: "pupper2",
+    info: "just the sweetest little thing. would gladly sacrifice the lives of others for the cause.",
     factionId: alliance.id,
   });
   const pupper3 = await Pupper.create({
-    name: "pupper3",
+    name: "ranger",
     imageUrl: "pupper3.jpg",
-    info: "pupper3",
+    info: "the lawman of the realm.",
     factionId: alliance.id,
   });
   const pupper0 = await Pupper.create({
-    name: "pupper0",
+    name: "gemini",
     imageUrl: "pupper0.jpg",
-    info: "pupper0",
+    info: "while originally thought two be two distinct beings, it is now understood to be one.",
+    factionId: horrors.id,
+  });
+
+  const pupper01 = await Pupper.create({
+    name: "shank",
+    imageUrl: "pupper01.jpg",
+    info: "these photos of shank are a dime a dozen. it's said you'll only be able to snap a photo at the expense of your own life.",
     factionId: horrors.id,
   });
 
