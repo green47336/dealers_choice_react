@@ -5,15 +5,15 @@ const seed = async () => {
 
   //Factions
   const alliance = await Faction.create({
-    name: "Canine Alliance",
+    name: "canine alliance",
     imageUrl: "alliance.jpg",
   });
   const monarchy = await Faction.create({
-    name: "Feline Monarchy",
+    name: "feline monarchy",
     imageUrl: "monarchy.jpg",
   });
   const horrors = await Faction.create({
-    name: "The Horrors",
+    name: "the horrors",
     imageUrl: "horrors.jpg",
   });
 

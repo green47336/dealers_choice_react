@@ -34,14 +34,9 @@ export default class Main extends React.Component {
     }
   }
 
-  //Doubtful that this needs to be async or in a try catch but not the priority here
-  async resetSelection() {
-    try {
-      const selectedFaction = {};
-      this.setState({ selectedFaction });
-    } catch (ex) {
-      console.log(ex);
-    }
+  resetSelection() {
+    const selectedFaction = {};
+    this.setState({ selectedFaction });
   }
 
   render() {

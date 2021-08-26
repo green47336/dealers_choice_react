@@ -1,6 +1,10 @@
 const router = require("express").Router();
 const { Faction, Kitty, Pupper } = require("../db");
 
+router.put("/", async (req, res, next) => {
+  console.log("lol");
+});
+
 router.get("/", async (req, res, next) => {
   try {
     res.send(
